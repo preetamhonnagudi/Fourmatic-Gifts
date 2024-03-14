@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Bricolage+Grotesque&family=Caprasimo&family=Dancing+Script:wght@700&family=Nova+Square&family=Roboto+Condensed&family=Teko:wght@300&display=swap');
+
+body{
+    background-image: url(https://img.freepik.com/premium-vector/seamless-pattern-gift-boxes-with-bows-different-patterns-gray-white-background_444390-17905.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}   
+
+.navbar{
+    display: flex;
+    padding-bottom: 30px; 
+  }
+  .nav-list{
+     width: 60%;
+     background-color: rgb(87, 29, 0);
+     display: flex;
+     justify-content: left;
+     align-items: center;
+  }
+  /* .hov1:hover{
+      color: brown;
+  } */
+  .nav-list{
+     list-style: none;
+  }
+  .rightnav li{
+      list-style: none;
+      padding: 5px;
+  }
+  .rightnav li :hover{
+      color:rgb(218, 236, 139);
+      /* filter: blur(30%);
+      background-color: brown; */
+  }
+  .rightnav li a{
+      text-decoration: none;
+      margin-left: 10px;
+      font-family: 'Belanosima', sans-serif;
+      font-size: 30px;
+      color: aliceblue;
+      padding-left: 25px;
+  }
+  .rightnav{
+      width: 40%;
+      background-color: rgb(87, 29, 0);
+      display: flex;
+      align-items: center;
+  }
+  .logo{
+      width: 5%;
+      display: flex  ;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      padding-left: 25px;
+  }
+  .logo img{
+      width: 200%;
+      border: 5px solid rgb(87, 29, 0);
+      border-radius: 50%;
+  }
+  .title{
+      font-family: 'Dancing Script', cursive;
+      color: aliceblue;
+      font-size: 73px;
+      padding-left: 15px;
+      margin-left:60px;
+  }

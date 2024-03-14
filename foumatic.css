@@ -1,0 +1,144 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Caprasimo&family=Roboto+Condensed&family=Teko:wght@300&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Bricolage+Grotesque&family=Caprasimo&family=Dancing+Script:wght@700&family=Roboto+Condensed&family=Teko:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Bricolage+Grotesque&family=Caprasimo&family=Dancing+Script:wght@700&family=Nova+Square&family=Roboto+Condensed&family=Teko:wght@300&display=swap');
+
+body{
+    background-image: url(https://img.freepik.com/premium-vector/seamless-pattern-gift-boxes-with-bows-different-patterns-gray-white-background_444390-17905.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+  display: flex;
+}
+.nav-list{
+   width: 60%;
+   background-color: rgb(87, 29, 0);
+   display: flex;
+   justify-content: left;
+   align-items: center;
+}
+/* .hov1:hover{
+    color: brown;
+} */
+.nav-list{
+   list-style: none;
+}
+.rightnav li{
+    list-style: none;
+    padding: 5px;
+}
+.rightnav li :hover{
+    color:rgb(218, 236, 139);
+    /* filter: blur(30%);
+    background-color: brown; */
+}
+.rightnav li a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+}
+.rightnav{
+    width: 40%;
+    background-color: rgb(87, 29, 0);
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 5%;
+    display: flex  ;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.logo img{
+    width: 1000%;
+    border: 5px solid rgb(87, 29, 0);
+    border-radius: 50%;
+}
+.title{
+    font-family: 'Dancing Script', cursive;
+    color: aliceblue;
+    font-size: 73px;
+    padding-left: 30px;
+    margin-left:60px;
+}
+/* .mini-navbar{
+    display: flex;
+}
+.info{
+    font-size: 10px;
+    width: 100%;
+    background-color: rgb(165, 96, 12);
+    align-items: center;
+    margin-top: 5px;
+    padding: 5px;
+}
+.info p{
+    text-decoration: none;
+    margin-left: 40px;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 35px;
+    color: aliceblue;     
+}
+.info a{
+    font-size: 30px;
+} */
+.right-info p{
+    list-style: none;
+    padding: 20px;
+    margin-left:25px ;
+}
+.right-info p, a{
+    text-align: right;
+    text-decoration: none;
+    margin-left: 40px;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 35px;
+    color: aliceblue;
+    margin-right:39px ;  
+}
+#scroll-container {
+    padding: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 25px;
+    color: rgb(99, 21, 0);
+    font-family:'Nova Square', cursive ;
+    border-top : 4px solid rgb(202, 173, 99);
+    border-bottom : 4px solid rgb(202, 173, 99);
+    background-color: rgb(228, 215, 198);
+  }
+  #scroll-text {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -moz-animation: my-animation 25s linear infinite;
+    -webkit-animation: my-animation 25s linear infinite;
+    animation: my-animation 25s linear infinite;
+  }
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateX(100%); }
+    to { -moz-transform: translateX(-100%); }
+  }
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(100%); }
+    to { -webkit-transform: translateX(-100%); }
+  }
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    to {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+}
